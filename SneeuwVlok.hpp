@@ -24,7 +24,7 @@ private:
 	bool dead;		//als dead == true, wordt de sneeuwvlok verwijdert
 
 public:
-	SneeuwVlok( int positionX, int positionY );	//constructor
+	SneeuwVlok( int positionX, int positionY,int size );	//constructor
 	void draw();								//teken functie die een sneeuwvlok tekent
 	void fall( int groundLevel );				//functie die de y positie verandert
 	bool isDead();								//functie die de sneeuwvlok dead status teruggeeft
