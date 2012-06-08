@@ -22,6 +22,8 @@ class SneeuwLandschap
 {
 private:
 	int sneeuwHoogte;
+	int size;		//sneeuwvlok heeft (een willekeurige) grootte
+
 	SneeuwMan* sneeuwMan;
 
 	MAUtil::Vector<SneeuwVlok*> sneeuwVlokArray;
